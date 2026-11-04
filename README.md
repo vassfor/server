@@ -15,7 +15,6 @@ A simple TCP-based chat application written in Python. It consists of a server a
 ## Project structure
 
 ```text
-server-main/
 ├── client.py    # Tkinter chat client
 ├── server.py    # TCP server
 └── README.md
@@ -80,15 +79,6 @@ Start the server before launching clients. Each client connects automatically to
 - The client updates Tkinter widgets from a background thread, which may cause UI instability.
 - The server uses `127.0.0.1`, so it is intended for use on the same machine.
 
-These are documented limitations; **the source code has not been modified**.
-
-## Possible future improvements
-
-- Improve TCP message handling.
-- Make shared server state thread-safe.
-- Perform Tkinter updates on the main UI thread.
-- Make the server host and port configurable.
-
 ## License
 
-No license is currently specified in this repository.
+
