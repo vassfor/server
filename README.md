@@ -79,6 +79,6 @@ Start the server before launching clients. Each client connects automatically to
 - The client updates Tkinter widgets from a background thread, which may cause UI instability.
 - The server uses `127.0.0.1`, so it is intended for use on the same machine.
 
-## License
+## Author
 
-
+vassfor – GitHub
